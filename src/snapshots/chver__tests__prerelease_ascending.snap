@@ -1,0 +1,26 @@
+---
+source: src/main.rs
+expression: result
+---
+## [Unreleased]
+
+## [1.3.0] - 2026-05-31
+
+### Changed
+
+- Something new.
+
+## [1.2.3] - 2026-01-01
+
+### Fixed
+
+- A bug.
+
+## [1.2.2] - 2025-12-01
+
+- Initial.
+
+[1.2.2]: https://github.com/owner/repo/releases/tag/v1.2.2
+[1.2.3]: https://github.com/owner/repo/compare/v1.2.2...v1.2.3
+[1.3.0]: https://github.com/owner/repo/compare/v1.2.3...v1.3.0
+[unreleased]: https://github.com/owner/repo/compare/v1.3.0...HEAD
