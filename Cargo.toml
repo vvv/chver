@@ -2,6 +2,9 @@
 name = "chver"
 version = "0.1.0"
 edition = "2024"
+description = "Coordinate semver between Cargo.toml and CHANGELOG.md"
+keywords = ["semver", "changelog", "release", "versioning"]
+publish = false
 
 [[bin]]
 name = "chver"
@@ -11,6 +14,7 @@ path = "src/main.rs"
 clap = { version = "4.6", features = ["derive"] }
 chrono = { version = "0.4", features = ["clock"] }
 color-eyre = "0.6"
+fs-err = "3.3"
 semver = "1.0"
 toml_edit = "0.22"
 
